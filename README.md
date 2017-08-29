@@ -1,2 +1,2 @@
 # iceage-eloquent
-An exge together with Laravel Eloquent ORM
+An example of using IceAge together with Laravel Eloquent ORM
