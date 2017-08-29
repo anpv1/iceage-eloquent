@@ -1,0 +1,11 @@
+{% extends "layout/main.html" %}
+
+{% block title %}Oops!!! There is an error happen!{% endblock %}
+
+{% block content %}
+<h3>Internal server error</h3>
+{% if debug %}
+<p>{{ error.getMessage() }}</p>
+<pre>{{ error.getTraceAsString() }}</pre>
+{% endif %}
+{% endblock %}

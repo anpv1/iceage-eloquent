@@ -1,0 +1,23 @@
+{
+    "name": "anpv1/iceage-eloquent",
+    "description": "An example of using IceAge together with Laravel Eloquent ORM",
+    "type": "web framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anpham",
+            "email": "phaman86@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "twig/twig": "~1.0",
+        "rfussien/dotenv": "^1.0",
+        "illuminate/database": "^5.4",
+        "anpv1/iceage-php": "^1.0"
+    }
+}

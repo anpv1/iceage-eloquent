@@ -1,0 +1,9 @@
+{% extends "layout/main.html" %}
+
+{% block title %}{{ row.title }}{% endblock %}
+
+{% block content %}
+<h3>{{ row.title }} - Test</h3>
+<div>{{ row.description }}</div>
+<p>{{ row.created }}</p>
+{% endblock %}

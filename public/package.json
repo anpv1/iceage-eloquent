@@ -1,0 +1,16 @@
+{
+  "name": "iceage-eloquent",
+  "version": "1.0.0",
+  "description": "Example of using IceAge with Laravel Eloquent ORM",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anpham <phaman86@gmail.com>",
+  "license": "MIT"
+}
