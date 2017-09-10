@@ -12,9 +12,10 @@ $app->bootstrap(array(
 ));
 
 try {
-    $app->run();
+    $result = $app->run();
 }
 catch(Exception $e){
-    $response = $app->run_handler('\\App\\Controller\\Error::error', array('error' => $e));
-    $app->response($response);
+    $result = $app->run_handler('\\App\\Controller\\Error::error', array('error' => $e));
 }
+
+$app->response($result);
